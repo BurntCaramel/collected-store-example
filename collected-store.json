@@ -1,0 +1,26 @@
+{
+  "collections": {
+    "pictures": {
+      "type" : "record",
+      "name" : "Picture",
+      "fields" : [
+        {
+          "name" : "createdAt",
+          "type" : { "type": "int", "logicalType": "timestamp-millis" }
+        },
+        {
+          "name" : "contentStorageKey",
+          "type" : "string"
+        },
+        {
+          "name" : "description",
+          "type" : "string"
+        },
+        {
+          "name" : "thumbnailURL",
+          "type" : "string"
+        }
+      ]
+    }
+  }
+}
